@@ -48,7 +48,7 @@ function fractal(x,y,a,r,n){
   stroke(0);
   strokeWeight(map(r,0,200,0,20));
   line(x,y,p,q);
-  if(r<55){
+  if(r<50){
     for(let i=0;i<8;i++){
       leaf[m][0]=x+random(p-x);
       leaf[m][1]=y+random(q-y);
