@@ -17,10 +17,10 @@ function setup(){
 
     url[0]=createA('https://nakkinn.github.io/othelo/','オセロ');
     url[0].position(30,150);
-    url[0].style('font-size','30px');
+    url[0].style('font-size','25px');
     url[1]=createA('https://nakkinn.github.io/sketch1/','スケッチ１');
-    url[1].position(30,200);
-    url[1].style('font-size','30px');
+    url[1].position(30,190);
+    url[1].style('font-size','25px');
 
     fractal(width/2,height,0,windowHeight/6,0);
     img=get(0,0,width,height);
@@ -52,7 +52,7 @@ function fractal(x,y,a,r,n){
     for(let i=0;i<8;i++){
       leaf[m][0]=x+random(p-x);
       leaf[m][1]=y+random(q-y);
-      leaf[m][2]=random(60);
+      leaf[m][2]=random(50);
       leaf[m][3]=random(155,255);
       leaf[m][4]=random(100,200);
       leaf[m][5]=random(50,100);
