@@ -22,7 +22,7 @@ function setup(){
     url[1].position(30,200);
     url[1].style('font-size','30px');
 
-    fractal(width/2,height,0,150,0);
+    fractal(width/2,height,0,windowHeight/6,0);
     img=get(0,0,width,height);
     
 }
