@@ -22,7 +22,7 @@ function setup(){
     url[1].position(30,190);
     url[1].style('font-size','25px');
     url[2]=createA('https://nakkinn.github.io/maze/','迷路');
-    url[2].position(30,0);
+    url[2].position(30,230);
     url[2].style('font-size','25px');
 
     fractal(width/2,height,0,windowHeight/6,0);
