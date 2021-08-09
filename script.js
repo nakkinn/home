@@ -6,7 +6,6 @@ for(let i=0;i<leaf.length;i++){
     leaf[i]=new Array(10);
 }
 let img;
-let 
 
 function setup(){
     createCanvas(windowWidth,windowHeight);
@@ -24,6 +23,9 @@ function setup(){
     url[2]=createA('https://nakkinn.github.io/maze/','迷路');
     url[2].position(30,230);
     url[2].style('font-size','25px');
+    url[3]=createA('https://nakkinn.github.io/shogi/','将棋');
+    url[3].position(30,270);
+    url[3].style('font-size','25px');
 
     fractal(width/2,height,0,windowHeight/6,0);
     img=get(0,0,width,height);
